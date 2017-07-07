@@ -8,7 +8,7 @@ INSTALLATION INSTRUCTIONS
 2. Add mystyle.css and mystyle.js to the folder
 3. Add the following two lines to the main HTML file (just before </body>):
 
-    ```javascript
+    ```html
     <link rel="stylesheet" type="text/css" href="mystyle.css" />
     <script src="mystyle.js"></script>
     ```
