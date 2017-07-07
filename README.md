@@ -8,9 +8,8 @@ INSTALLATION INSTRUCTIONS
 2. Add mystyle.css and mystyle.js to the folder
 3. Add the following two lines to the main HTML file (just before </body>):
 
-    `<link rel="stylesheet" type="text/css" href="mystyle.css" />`
-    
-    `<script src="mystyle.js"></script>`
+    ```<link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <script src="mystyle.js"></script>```
 
 4. Customize the general layout in mystyle.css
 5. Customize the look of text blocks in mystyle.js
