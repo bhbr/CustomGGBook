@@ -1,0 +1,78 @@
+
+	
+.wsf-worksheet-title, .toc_wslist, h1, h2 {
+	font-family: "Optima";
+	color: #F00; /* red */
+}
+
+h1 {
+	font-weight: bold;
+}
+
+h5 {
+	font-family: "Optima";
+	font-weight: bold;
+}
+
+.ws-element-text {
+	font-family: "Optima";
+}
+	
+#content, #menu-container {
+	background: rgb(230,200,140) url('./mystyle-images/mybg.png');
+}
+
+
+
+.jlatexmath {
+	transform: scale(2.0);
+}
+
+
+#menu-container .sBookmark-arrow {
+	background-image:url(./mystyle-images/myarrow.png);
+	background-image:-webkit-image-set(url(./mystyle-images/myarrow.png) 1x,url(./mystyle-images/myarrow@2x.png) 2x);
+}
+
+.menu-item, .menu-wrapper {
+	background-color: rgb(230,200,140);
+	font-family: "Optima";
+}
+
+#menu-container #menu #sBook-menulist ul>li .menu-item {
+	height: 50px;
+}
+
+.sel .menu-item {
+	background-color: rgb(71,62,44);
+	color: white;
+	border: 0px;
+}
+
+#menu_title .menu-item {
+	/*background-color: #0F0;*/
+}
+
+.submenu-items {
+	background-color: rgb();
+	color: #333;
+}
+
+.submenu-items .sel {
+	font-weight: bold;
+	color: black;
+}
+
+#menu .submenu-items li.sel,#menu .submenu-items li:hover,.submenu li:hover .text {
+	color:#000000;
+}
+
+
+#menu .submenu-items ol {
+	list-style:decimal;
+	padding-left:35px
+}
+
+.ws-element-image {
+	text-align: center;
+}
