@@ -74,5 +74,6 @@ INSTALLATION INSTRUCTIONS
 	
 	`</script>`
   
+  
      You can now use $ tags in the GeoGebraBook editor instead of the browser math editor.
   
