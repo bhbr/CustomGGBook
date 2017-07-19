@@ -1,6 +1,6 @@
 
-	
-.wsf-worksheet-title, .toc_wslist, h1, h2 {
+/* Worksheet titles, table of contents on title page */
+.wsf-worksheet-title, .toc_wslist, h1, h2 { /* h1, h2 are used in the TOC */
 	font-family: "Optima";
 	color: #F00; /* red */
 }
@@ -9,6 +9,7 @@ h1 {
 	font-weight: bold;
 }
 
+/* Title of text blocks */
 h5 {
 	font-family: "Optima";
 	font-weight: bold;
@@ -23,15 +24,11 @@ h5 {
 }
 
 
-
-.jlatexmath {
-	transform: scale(2.0);
-}
-
-
+/* This changes the bookmark icon in the upper left */
+/* The height is 36px (72px @2x)  */
 #menu-container .sBookmark-arrow {
-	background-image:url(./mystyle-images/myarrow.png);
-	background-image:-webkit-image-set(url(./mystyle-images/myarrow.png) 1x,url(./mystyle-images/myarrow@2x.png) 2x);
+	background-image:url(./mystyle-images/mybookmark.png);
+	background-image:-webkit-image-set(url(./mystyle-images/mybookmark.png) 1x,url(./mystyle-images/mybookmark@2x.png) 2x);
 }
 
 .menu-item, .menu-wrapper {
